@@ -4,42 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NakamaStore</title>
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a> 
-        <h4>NakamaStore</h4>
-        <input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo">
-        <a href="carrito.html"><img src="../imagenes/iconos/cart.png" alt="carrito"> <span>1</span></a>
+        <div>
+            <a  href="index.html"" ><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a> 
+            <h4>NakamaStore</h4>
+        </div>  
+        <div>
+            <input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo">
+            <a href="carrito.html" class="btn"><img src="../imagenes/iconos/cart.png" alt="carrito"> <span>1</span></a>
+            <a href="loging.html">Iniciar sesión</a>
+        </div>
     </header>
     <nav>
         <ul>
-            <li><a href="productos.html">Nuestros productos</a></li>
-            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="index.html">Ofertas</a></li>
+            <li><a href="productos.html">Productos</a></li>
             <li><a href="contactos.html">Contacto</a></li>            
         </ul>
     </nav>
     <main>
-        <div>
-            <h3>Iniciar sesión</h3>
-            <p>Accede con tus datos anteriores</p>
-            <form action="">
-                <input type="email" name="email" id="email" placeholder="Tu email">
-                <input type="password" name="password" id="password" placeholder="Tu contraseña">
-                <button type="submit">Iniciar sesión</button>
-            </form>
-        </div>
-        <div>
-            <h3>Regístrate</h3>
-            <p>Crea una cuenta para acceder a todo nuestro contenido</p>
-            <form action="">
-                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
-                <input type="text" name="apellido" id="apellido" placeholder="Tu apellido">
-                <input type="email" name="correo" id="correo" placeholder="Tu email">
-                <input type="password" name="contraseña" id="contraseña" placeholder="Tu contraseña">
-                <button type="submit">Crear cuenta ahora</button>
-            </form>
-        </div>
+       <section>
+        <h1>Ofertas</h1>
+           <div>
+            <h2>Las mejores ofertas de Nakama Store</h2>
+            <ul>
+                <li><a href="#figurasonepiece"><img src="../imagenes/animes/LUFFY.jpg" alt="luffy"></a>
+                <h4>Figuras One Piece</h4></li>
+                <li><a href="#figuraskimetsu"><img src="../imagenes/animes/kimetsu/Tanjiro-Kamado-1.jpg" alt="Kimetsu"></a>
+                <h4>Figuras Kimetsu no Yaiba</h4></li>
+                <li><a href="#figurasjujutsu"><img src="../imagenes/animes/jujutsu/SATORU-GOJO.jpg" alt="Jujutsu"></a>
+                <h4>Figuras Jujutsu Kaisen</h4></li>
+                <li><a href="#figurasdragonball"><img src="../imagenes/animes/dragonball/personajes.png" alt="Dragonball"></a>
+                <h4>Figuras Dragon Ball</h4></li>
+                <li><a href="#figurasnaruto"><img src="../imagenes/animes/naruto/NARUTO-SHIPPUDEN-FIGURAS.jpg" alt="Naruto"></a>
+                <h4>Figuras Naruto</h4></li>
+            </ul>
+           </div>
+           <hr>
+           <section>
+               <div id="figurasonepiece">
+                <h2 >Figuras One Piece</h2>
+                
+                <div class="card">
+                    <a href="luffy3.html"><img src="../imagenes/animes/bp16559_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Battle Royale 20cm</h3>
+                    <h4>35,90€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy2.html"><img src="../imagenes/animes/bp18948_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Chibi barco</h3>
+                    <h4><s>25,99€</s> 15,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy1.html"><img src="../imagenes/animes/bp19181_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+           </section>
+           <!--Figuras One Piece-->
+           <hr>
+           <section>
+               <div id="figuraskimetsu">
+                <h2 >Figuras Kimetsu no Yaiba</h2>
+                
+                <div class="card">
+                    <a href="luffy3.html"><img src="../imagenes/animes/kimetsu/bp19359_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Battle Royale 20cm</h3>
+                    <h4>35,90€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy2.html"><img src="../imagenes/animes/kimetsu/bp60201_angulo-1-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Chibi barco</h3>
+                    <h4><s>25,99€</s> 15,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy1.html"><img src="../imagenes/animes/kimetsu/MH833427-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="cad">
+                    <a href="luffy1.html"><img src="../imagenes/animes/kimetsu/thumb_c1443a87-7cb3-4f27-8eaf-8d9b78bdc517_600x-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+           </section>
+           <!--Figuras Kimetsu-->
+           <hr>
+           <section>
+               <div id="figurasjujutsu">
+                <h2 >Figuras Jujutsu Kaisen</h2>
+                
+                <div class="card">
+                    <a href="luffy3.html"><img src="../imagenes/animes/jujutsu/bp18377_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Battle Royale 20cm</h3>
+                    <h4>35,90€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy2.html"><img src="../imagenes/animes/jujutsu/bp19159_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Chibi barco</h3>
+                    <h4><s>25,99€</s> 15,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy1.html"><img src="../imagenes/animes/jujutsu/bp19579_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                
+           </section>
+           <!--Figuras Jujutsu-->
+           <hr>
+           <section>
+               <div id="figurasdragonball">
+                <h2 >Figuras Dragon Ball</h2>
+                
+                <div class="card">
+                    <a href="luffy3.html"><img src="../imagenes/animes/dragonball/24906-logo_18738_2604754_DBZ_G´¥aµ¦i_VEGETA-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Battle Royale 20cm</h3>
+                    <h4>35,90€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy2.html"><img src="../imagenes/animes/dragonball/bp19379_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Chibi barco</h3>
+                    <h4><s>25,99€</s> 15,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy1.html"><img src="../imagenes/animes/dragonball/bp35927_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+           </section>
+           <!--figuras Dragon Ball-->
+           <hr>
+           <section>
+               <div id="figurasnaruto">
+                <h2 >Figuras Naruto
+                <div class="card">
+                    <a href="luffy3.html"><img src="../imagenes/animes/naruto/19288-225x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Battle Royale 20cm</h3>
+                    <h4>35,90€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy2.html"><img src="../imagenes/animes/naruto/bp19131_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura Monkey D. luffy - Chibi barco</h3>
+                    <h4><s>25,99€</s> 15,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <a href="luffy1.html"><img src="../imagenes/animes/naruto/bp19438_frente-300x300.jpg" alt=""></a>
+                    <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
+                    <h4>40,99€</h4>
+                    <button>Añadir al carrito</button>
+                </div>
+           </section>
+       </section>
+
     </main>
     <section>
         <div>
@@ -72,7 +207,7 @@
             <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="10%"></a> 
             <h4>NakamaStore</h4>
             <div>
-                <ul>
+                <ul class="menu">
                     <li><a href="">Centro de ayuda</a></li>
                     <li><a href="">Centro de ayuda</a></li>
                     <li><a href="">Centro de ayuda</a></li>
@@ -80,7 +215,7 @@
                 </ul>
             </div>
             <div>
-                <ul>
+                <ul class="menu">
                     <li><a href="">Centro de ayuda</a></li>
                     <li><a href="">Centro de ayuda</a></li>
                     <li><a href="">Centro de ayuda</a></li>
@@ -108,6 +243,7 @@
             </div>
         </section>
     </footer>
+    <script href="../js/index.js"></script>
     
 </body>
 </html>
