@@ -4,50 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>carrito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nomalize.css">
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/btn.css">
+    <link rel="stylesheet" href="../css/carrito.css">
 </head>
 <body>
     <header>
-        <a  href="index.html"" class="logo"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a> 
-        <h2>NakamaStore</h2>
-        <a href="#">Carrito</a>
-        <a href="#">Forma de pago</a>
-        <a href="#">Finalizar pedido</a>
-        <a href="index.html">Cerrar sesión</a>
-    </header>
-    <hr>
+        <a  href="index.html"" class="logo"><img src="../imagenes/iconos/logo.jpeg" alt="logo" ></a> 
+       
+    </header >
+    <div class="carrito">
+        <div class="n-cart ">
+            <a href="#" class="btn"><i class="bi bi-cart-check-fill"></i>Carrito</a>
+            <i class="bi bi-arrow-right"></i>
+            <a href="#" class="btn"><i class="bi bi-wallet"></i>Forma de pago</a>
+            <i class="bi bi-arrow-right"></i>
+            <a href="#" class="btn"><i class="bi bi-credit-card"></i>Finalizar pedido</a>
+        </div>
+        <div class="n-cart sesion">
+            <a href="index.html" class="btn">Cerrar sesión</a>
+        </div>
+    </div>
+    
+   
     <main>
         <div>
            <h3>Mi carrito</h3> 
-           <a href="productos.html">Seguir comprando</a>
+           <a href="productos.html" class="btn">Seguir comprando</a>
         </div>
-        <hr>
+      
         <div>
             <a href="sanji1.html"><img src="../imagenes/animes/one piece/sanji/bp19600_frente-300x300.jpg" alt="Sanji" width="10%"></a>
-            <h3>Figura Vinsmoke Sanji - Whole cake Edition 17 cm</h3>
-            <p>56,99€</p>
+            <h5>Figura Vinsmoke Sanji - Whole cake Edition 17 cm</h5>
+            <p>56,99<i class="bi bi-currency-euro m-color"></i></p>
             <form action="">
                 <input type="number" name="cantidad" id="cantidad" value="1">
-                <button type="submit">Eliminar</button>
+                <button type="submit" class="btn">Eliminar</button>
             </form>
         </div>
-        <hr>
+       
         <div>
             <a href="luffy1.html"><img src="../imagenes/animes/one piece/luffy/bp19504_frente-300x300.jpg" alt="luffy" width="10%"></a>
-            <h3>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3>
-            <p>40,99€</p>
+            <h5>Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h5>
+            <p>40,99<i class="bi bi-currency-euro m-color"></i></p>
             <form action="">
                 <input type="number" name="cantidad" id="cantidad" value="1">
-                <button type="submit">Eliminar</button>
+                <button type="submit" class="btn">Eliminar</button>
         </div>
-        <hr>
+        
         <div>
-            <h2>Resumen del pedido</h2>
+            <h4>Resumen del pedido</h4>
             <p>Continúa con el proceso de compra</p>
-            <h1>Total: 100,98€</h1>
-            <a href="pago.html">Continuar a forma de pago</a>
+            <h5>Total: 100,98<i class="bi bi-currency-euro m-color"></i></h5>
+            <a href="pago.html" class="btn">Continuar a forma de pago</a>
         </div>
     </main>
-    <hr>
+    <h4>Otros usuarios también compraron</h4>
+    <section class="producto">
+        <div class="card">
+            <a href="luffy2.html"><img src="../imagenes/animes/jujutsu/bp18377_frente-300x300.jpg" alt=""></a>
+            <div class="contenido">
+                <div>
+                    <h4>Figura Monkey D. luffy - Chibi barco</h4>
+                </div>
+                <div>
+                    <h5>15,99 <i class="bi bi-currency-euro m-color"></i></h5>
+                </div>
+                
+                <div class="valoracion">
+                    <span class="m-color"><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></span>
+                </div>
+                
+                <div>
+                    <button class="btn" class="btn btn-block">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="luffy2.html"><img src="../imagenes/animes/dragonball/24906-logo_18738_2604754_DBZ_G´¥aµ¦i_VEGETA-300x300.jpg" alt=""></a>
+            <div class="contenido">
+                <div>
+                    <h4>Figura Monkey D. luffy - Chibi barco</h4>
+                </div>
+                <div>
+                    <h5>15,99 <i class="bi bi-currency-euro m-color"></i></h5>
+                </div>
+                
+                <div class="valoracion">
+                    <span class="m-color"><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></span>
+                </div>
+                
+                <div>
+                    <button class="btn" class="btn btn-block">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <a href="luffy2.html"><img src="../imagenes/animes/kimetsu/bp60201_angulo-1-300x300.jpg" alt=""></a>
+            <div class="contenido">
+                <div>
+                    <h4>Figura Monkey D. luffy - Chibi barco</h4>
+                </div>
+                <div>
+                    <h5>15,99 <i class="bi bi-currency-euro m-color"></i></h5>
+                 </div>
+            
+                <div class="valoracion">
+                    <span class="m-color"><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></span>
+                </div>
+            
+                <div>
+                    <button class="btn" class="btn btn-block">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
     <footer>
         <section>
             <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="10%"></a> 
@@ -74,7 +152,7 @@
                 <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
                 <form action="">
                     <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
-                    <button type="submit">Suscribirme</button>
+                    <button type="submit" class="btn">Suscribirme</button>
                     <label for="privacidad">
                         <input type="checkbox" name="privacidad" id="privacidad" value="acepto">
                         Acepto las políticas de privacidad de esta web

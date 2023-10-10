@@ -1,0 +1,14 @@
+.n-cart{
+
+  display: inline-block;
+  margin:0 16px;
+  width: 48%;
+}
+.n-cart-left{
+  max-width: 15%;
+}
+.n-cart.sesion{
+  text-align: right;
+}
+
+

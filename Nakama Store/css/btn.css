@@ -1,0 +1,32 @@
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #DC223A;
+    border-radius: 8px;
+}
+:hover.btn{
+    background-color: white;
+    color: #3A3A3A;
+    border: 2px solid white;
+    cursor: pointer;  
+}
+:hover.btn span{
+    color:#DC223A ;
+}
+.btn-block{
+    display: block;
+   
+}
+.relative{
+    position: relative;   
+}
+.absolute{
+    position: absolute;
+    background-color: darkblue;
+    padding: 8px;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
