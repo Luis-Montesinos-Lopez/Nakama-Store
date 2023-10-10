@@ -1,5 +1,9 @@
 .valoracion{color: #C5C5C5;}
 
+#figurasonepiece,#figuraskimetsu,#figurasjujutsu,#figurasdragonball,#figurasnaruto,#figurashero{
+    margin:0 8px;
+}
+
 .card{    
     padding: 8px 16;
     border: 2px solid #DC223A;
@@ -7,10 +11,10 @@
     margin: 8px;
     background-color: #C5C5C5;
 }
-img{
+ /* .card div img{
     display: inline-block;
-    max-width: 100%;
-}
+    padding:0 64px;
+}  */
 
 .valoracion .bi-star{
     margin-right: 8px;

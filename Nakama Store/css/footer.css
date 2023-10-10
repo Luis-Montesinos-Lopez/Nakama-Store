@@ -1,7 +1,31 @@
 footer{
    background-color: #C5C5C5; 
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
 }
+.footernav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:8px
+}
+.footernav img{
+    max-width: 50%;
+}
+.menu a {
+    display:block;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 50%;
+    margin: 8px;
+   
+  
+}
+
 
 .redes{
     background-color: white;
+    text-align: right;  
+    padding: 0 8px; 
 }
+
+
