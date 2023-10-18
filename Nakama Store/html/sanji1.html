@@ -1,160 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>luffy1</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/nomalize.css">
-    <link rel="stylesheet" href="../css/Style.css">
-    <link rel="stylesheet" href="../css/card.css">
-    <link rel="stylesheet" href="../css/btn.css">
-    <link rel="stylesheet" href="../css/nav.css">
-
-</head>
-<body>
-    <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a>  
-        <h4>NakamaStore</h4>
-        <input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo">
-        <a href="carrito.html"><img src="../imagenes/iconos/cart.png" alt="carrito"> <span>1</span></a>
-        <a href="loging.html">Iniciar sesión</a>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="contactos.html">Contacto</a></li>
-          
-        </ul>
-        <ul>
-            <li><a href="#">Mis pedidos</a></li>
-            <li><a href="index.html">Logout</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <main>
-        <div>
-            <img src="../imagenes/animes/one piece/sanji/bp19600_frente-300x300.jpg" alt="Sanji" width="500">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/nomalize.css">
+        <link rel="stylesheet" href="../css/Style.css">
+        <link rel="stylesheet" href="../css/card.css">
+        <link rel="stylesheet" href="../css/btn.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/productos.css">
+    </head>
+    <body>
+        <header>
             <div>
-                <h1>Figura Vinsmoke Sanji - Whole cake Edition 17 cm</h1>
-                <h4>56,99€</h4>
-                <p>Hay existencias</p>
-                <form action="">
-                    <input type="number" value="1">
-                </form>
-                <a href="carrito.html">Añadir al carrito</a>
-            </div>
-        </div>
-        <hr>
-        <div>
-            <h2>Descripción</h2>
-            <p>¡Añade la figura de Sanji a tu colección de figuras de One Piece!</p>
-
-            <p>Banpresto presenta la figura de Sanji , personaje de la serie de anime “One Piece Whole cake Edition”. Se trata de una figura de PVC que mide 17 cm e incluye una base de exposición.</p>
-
-            <p>Banpresto es uno de los mayores fabricantes Japoneses de Figuras a nivel mundial. Perteneciente al grupo Bandai Spirits, esta empresa ofrece una calidad precio única. Actualmente dispone de múltiples líneas diferentes para que todos los fans puedan tener en su colección una figura que se adapte a su manera de disfrutar del mundo de las figuras.</p>
-
-            <p>Calidad, detalle y sobre todo espíritu emprendedor hacen de Banpresto la mayor compañía del mundo de figuras ofreciendo cada mes cientos de figuras de diferentes franquicias como Dragon Ball, One Piece, Naruto, Sword Art Online… para que todos podamos disfrutar de nuestra afición al máximo nivel sin gastarnos mucho en cada figura.</p>
-
-            <p>Figura limitada hasta agotar existencias.</p>
-
-            <h4><b>FICHA TÉCNICA:</b></h4>
-
-            <p><b>Licencia:</b> One Piece</p>
-
-            <p><b>Fabricante:</b> Banpresto (Bandai Spirits)</p>
-
-            <p><b>Altura:</b> 17 cm</p>
-
-            <p><b>Colección:</b> WholeCake</p>
-
-            <p><b>Tipo:</b> Figura pre-pintada de PVC y ABS en packaging cerrado</p>
-
-            <p><b>SKU:</b> BP19718</p>
-        </div>
-        <hr>
-        <div>
-            <h3><b>Opiniones</b></h3>
-            <p>Encantado con la figura, la añadí a mi colección que ya suman un total de 654687354684354 figuritas. Mi mujer está a punto de echarme de casa para hacer sitio a tantos muñecos.</p>
-            <p><i>Otakin</i></p>
-            <hr>
-            <p>Llegó en perfecto estado para el cumpleaños de mi hijo.</p>
-            <p><i>Francisca</i></p>
-        </div>
-        <hr>
-        <section>
-            <div>
-                <img src="../imagenes/iconos/lock.png" alt="pago">
-                <h5>Pago seguro</h5>
-                <h6>100% garantizado</h6>
+                <a  href="index.html"" ><img src="../imagenes/iconos/logoh.png" alt="logo"  class="logo"></a>
+            </div>  
+            <div class="busqueda">
+                <div><input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo" class="n-cart-left"></div>
+                <div><a href="carrito.html" class="btn m-color relative"><img src="../imagenes/iconos/carrito.png" alt="" class=""><span class="absolute"></span></a></div>
+              
     
+                <div><a href="loging.html" class="btn m-color "><img src="../imagenes/iconos/logging.png" alt=""  class="n-cart-left">Iniciar sesión</a></div>
             </div>
-            <div>
-                <img src="../imagenes/iconos/truck-side.png" alt="envío">
-                <h5>Envío gratis</h5>
-                <h6>En pedidos de +100€</h6>
-    
+        </header>
+        <nav class="">
+            <ul class="m-nav wrap">
+                <li><a href="index.html" class="btn">Ofertas</a></li>
+                <li><a href="productos.html" class="btn">Productos</a></li>
+                <li><a href="Nosotros.html" class="btn">Nosotros</a></li>           
+            </ul>
+        </nav>
+        <main>
+            <div class="product">
+                <div class="product-img">
+                    <img src="../imagenes/animes/one piece/sanji/bp19600_frente-300x300.jpg" alt="luffy">
+                </div>
+                <div class="product-info">
+                    <div><h3 class="nombre">Figura de Monkey D. Luffy One Piece- Onigashima Battle 24 cm</h3></div>
+                    <div><h4 class="precio">56,99<i class="bi bi-currency-euro m-color"></i></h4></div>
+                    <div class="valoracion">
+                        <div><span class="m-color"><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></span></div>
+                         <div><a href="#opiniones"><h5>2 valoraciones.</h5></a></div>
+                    </div>
+                    <div><p>Hay existencias</p></div>
+                    <div><form action="">
+                        <input type="number" value="1">
+                    </form></div>
+                    <div><a href="carrito.html" class="btn añadir-carrito">Añadir al carrito</a></div>
+                </div>
             </div>
-            <div>
-                <img src="../imagenes/iconos/shield-check.png" alt="garantía">
-                <h5>2 años de garantía</h5>
-                <h6>En todos los gadgets</h6>
+          <section class="wrap">
+            <div class="descripcion">
+                <h2>Descripción</h2>
+                <h5>¡Añade la figura de Monkey D. Luffy de la colección de One Piece!</h5>
     
+                <h5>Banpresto para la colección Grandista Nero presenta la figura de Monkey D. Luffy, del popular manga y anime “One Piece”. Esta figura está hecha en PVC mide unos 24 cm de alto e incluye una base soporte especial para exposición.</h5>
+    
+                <h5>Banpresto es uno de los mayores fabricantes Japoneses de Figuras a nivel mundial. Perteneciente al grupo Bandai Spirits, esta empresa ofrece una calidad precio única. Actualmente dispone de múltiples líneas diferentes para que todos los fans puedan tener en su colección una figura que se adapte a su manera de disfrutar del mundo de las figuras.</h5>
+    
+                <h5>Calidad, detalle y sobre todo espíritu emprendedor hacen de Banpresto la mayor compañía del mundo de figuras ofreciendo cada mes cientos de figuras de diferentes franquicias como Dragon Ball, One Piece, Naruto, Sword Art Online… para que todos podamos disfrutar de nuestra afición al máximo nivel sin gastarnos mucho en cada figura.</h5>
+    
+                <h5>Figura limitada hasta agotar existencias.</h5>
+    
+                <h4><b>FICHA TÉCNICA:</b></h4>
+    
+                <h5><b>Licencia:</b> One Piece</h5>
+    
+                <h5><b>Fabricante:</b> Banpresto (Bandai Spirits)</h5>
+    
+                <h5><b>Altura:</b> 24 cm</h5>
+    
+                <h5><b>Colección:</b> Onigashima Battle</h5>
+    
+                <h5><b>Tipo:</b> Figura pre-pintada de PVC y ABS en packaging cerrado</h5>
+    
+                <h5><b>SKU:</b> BP19504</h5>
             </div>
-            <div>
-                <img src="../imagenes/iconos/box-open.png" alt="ofertas">
-                <h5>Ofertas únicas</h5>
-                <h6>En precios de mayorista</h6>
-    
+     
+            <div class="opiniones" id="opiniones">
+                <div><h3>Opiniones</h3></div>
+                <div class="opiniones-clientes"><h5>Encantado con la figura, la añadí a mi colección que ya suman un total de 654687354684354 figuritas. Mi mujer está a punto de echarme de casa para hacer sitio a tantos muñecos.</h5>
+                    <h5><i>Otakin</i></h5>
+                </div>      
+               <div class="opiniones-clientes">
+                <h5>Llegó en perfecto estado para el cumpleaños de mi hijo.</h5>
+                <h5><i>Francisca</i></h5>
+            </div>
             </div>
         </section>
-    </main>
-    <hr>
-    <footer>
-        <section>
-            <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="10%"></a>  
-            <h4>NakamaStore</h4>
+        <section class="logosinfo">
             <div>
-                <ul>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                </ul>
+                <div>
+                    <img src="../imagenes/iconos/lock.png" alt="pago">
+                </div>
+                <div>
+                    <h5>Pago seguro</h5>
+                    <h6>100% garantizado</h6>
+                 </div>
             </div>
-            <div>
-                <ul>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
-                <form action="">
-                    <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
-                    <button type="submit">Suscribirme</button>
-                    <label for="privacidad">
-                        <input type="checkbox" name="privacidad" id="privacidad" value="acepto">
-                        Acepto las políticas de privacidad de esta web
-                    </label>
-                </form>
-            </div>
-            <div>
-                <h6>Síguenos en nuestras redes sociales</h6>
-                <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.jpeg" alt="Instagram" width="5%"></a>
-                <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.jpeg" alt="Twitter" width="5%"></a>
-                <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.jpeg" alt="Youtube" width="5%"></a>
-            </div>
-        </section>
-    </footer>
     
+            <div>
+                <div>
+                    <img src="../imagenes/iconos/truck-side.png" alt="envío">
+                </div>
+                <div>
+                    <h5>Envío gratis</h5>
+                    <h6>En pedidos de +100€</h6>
+                </div>
+            </div>
+    
+            <div>
+                <div> 
+                    <img src="../imagenes/iconos/shield-check.png" alt="garantía">
+                </div>
+                <div>
+    
+                    <h5>2 años de garantía</h5>
+                    <h6>En todos los gadgets</h6>
+                </div>
+            </div>
+    
+            <div>
+                <div>
+                    <img src="../imagenes/iconos/box-open.png" alt="ofertas">
+                </div>
+                <div>
+                    <h5>Ofertas únicas</h5>
+                    <h6>En precios de mayorista</h6>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section class="footernav">
+                <div><a href="index.html"><img src="../imagenes/iconos/logo.png" alt="logo" ></a> </div>
+                <div>
+                <div>
+                    <ul class="menu">
+                        <li><a class="btn" href="">Centro de ayuda</a></li>
+                        <li><a class="btn" href="">Servicio al consumidor</a></li>
+                        <li><a class="btn" href="">Escríbenos</a></li>
+                        <li><a class="btn" href="">Servicio telefónico</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="menu">
+                        <li><a class="btn" href="">Política de privacidad</a></li>
+                        <li><a class="btn" href="">Condiciones de compra</a></li>
+                        <li><a class="btn" href="">Opiniones de clientes</a></li>
+                        <li><a class="btn" href="">Aviso de privacidad y coockies</a></li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+            <section class="footerform">
+                <div>
+                    <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
+                    <form action="">
+                        <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
+                        <button class="btn" type="submit">Suscribirme</button>
+                        <label for="privacidad">
+                            <input type="checkbox" name="privacidad" id="privacidad" value="acepto" checked>
+                            Acepto las políticas de privacidad de esta web
+                        </label>
+                    </form>
+                </div>
+            </section>
+        </footer>
+        <div class="redes">
+            <h5>Síguenos en nuestras redes sociales</h5>
+            <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.png" alt="Instagram" ></a>
+            <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.png" alt="Twitter" ></a>
+            <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.png" alt="Youtube" ></a>
+        </div>
+        <script href="../js/index.js"></script>
+        
 </body>
 </html>

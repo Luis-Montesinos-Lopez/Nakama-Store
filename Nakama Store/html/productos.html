@@ -13,83 +13,136 @@
     <link rel="stylesheet" href="../css/card.css">
     <link rel="stylesheet" href="../css/btn.css">
     <link rel="stylesheet" href="../css/nav.css">
-
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/productos.css">
 </head>
 <body>
-    <a  href="index.html"" class="logo"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a>
-        <h4>NakamaStore</h4>
-        <input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo">
-        <a href="carrito.html"><img src="../imagenes/iconos/cart.png" alt="carrito"> <span>1</span></a>
-        <a href="loging.html">Iniciar sesión</a>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="contactos.html">Contacto</a></li>
+    <header>
+        <div>
+            <a  href="index.html"" ><img src="../imagenes/iconos/logoh.png" alt="logo"  class="logo"></a>
+        </div>  
+        <div class="busqueda">
+            <div><input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo" class="n-cart-left"></div>
+            <div><a href="carrito.html" class="btn m-color relative"><img src="../imagenes/iconos/carrito.png" alt="" class=""><span class="absolute"></span></a></div>
           
+
+            <div><a href="loging.html" class="btn m-color "><img src="../imagenes/iconos/logging.png" alt=""  class="n-cart-left">Iniciar sesión</a></div>
+        </div>
+    </header>
+    <nav class="">
+        <ul class="m-nav wrap">
+            <li><a href="index.html" class="btn">Ofertas</a></li>
+            <li><a href="productos.html" class="btn">Productos</a></li>
+            <li><a href="Nosotros.html" class="btn">Nosotros</a></li>           
         </ul>
     </nav>
     <main>
         <h1>Animes y Mangas</h1>
-        <ul>
-            <li><a href="one-piece.html"><img src="../imagenes/productos/op.jpg" alt="onepiece" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/Naruto_logo.svg.png" alt="naruto" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/b5b91ac7e2c6787260adfef627c24313.png" alt="dragonball" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/DEMON-SLAYER-1.jpg" alt="kimetsu" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/Dr._Stone_Logo.jpg" alt="drstone" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/2560px-Cardcaptor_Sakura_anime_logo.svg-1.png" alt="sakura" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/fullmetal.jpg" alt="fullmetal" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/Jujutsu-kaisen-1024x435.png" alt="jujutsu" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/AAAABf6cvInZ5HivU7Jo1e9XZm_CxPui83OW8oNP3VqeanSjfjB0A0Le7FzTB5jeDzy2hFRYegFhWKCb49tkrItwNyHf66FOBySZ0p9i-1024x435.png" alt="shingeki" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/Hunter-x-Hunter-Logo.png" alt="hunter" width="20%"></a></li>
-            <li><a href="#"><img src="../imagenes/productos/Evangelion_Logo.webp" alt="evangelion" width="20%"></a></li>
-        </ul>
+        <h2>Las mejores figuras de tu serie favorita</h2>
+                <div class="contenedor">
+                    <ul class="productos-logo">
+                    <li><a href="one-piece.html"><img src="../imagenes/productos/images.png" alt="luffy"></a>
+                    <li><a href="kimetsu.html"><img src="../imagenes/productos/DEMON-SLAYER-1.png" alt="Kimetsu"></a>                    
+                    <li><a href="jujutsu.html"><img src="../imagenes/productos/Jujutsu-kaisen-1024x435.png" alt="Jujutsu"></a>                   
+                    <li><a href="dragonball.html"><img src="../imagenes/productos/b5b91ac7e2c6787260adfef627c24313.png" alt="Dragonball"></a>                   
+                    <li><a href="naruto.html"><img src="../imagenes/productos/Naruto_logo.svg.png" alt="Naruto"></a>                  
+                    <li><a href="hero.html"><img src="../imagenes/productos/My_Hero_Academia_logo_in_Japan_20150106.png" alt="Hero"></a>
+                    <li><a href="hunter.html"><img src="../imagenes/productos/Hunter-x-Hunter-Logo2.png" alt="luffy"></a>
+                    <li><a href="alchemist.html"><img src="../imagenes/productos/fullmetal.png" alt="Kimetsu"></a>                    
+                    <li><a href="sakura.html"><img src="../imagenes/productos/2560px-Cardcaptor_Sakura_anime_logo.svg-1.png" alt="Jujutsu"></a>                   
+                    <li><a href="evangelion.html"><img src="../imagenes/productos/Evangelion_Logo.webp" alt="Dragonball"></a>                   
+                    <li><a href="shingeki.html"><img src="../imagenes/productos/AAAABf6cvInZ5HivU7Jo1e9XZm_CxPui83OW8oNP3VqeanSjfjB0A0Le7FzTB5jeDzy2hFRYegFhWKCb49tkrItwNyHf66FOBySZ0p9i-1024x435.png" alt="Naruto"></a>                  
+                    <li><a href="drstone.html"><img src="../imagenes/productos/Dr._Stone_Logo.png" alt="Hero"></a>
+                    
+                </ul>
+            </div>
 
     </main>
+    <section class="logosinfo">
+        <div>
+            <div>
+                <img src="../imagenes/iconos/lock.png" alt="pago">
+            </div>
+            <div>
+                <h5>Pago seguro</h5>
+                <h6>100% garantizado</h6>
+             </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="../imagenes/iconos/truck-side.png" alt="envío">
+            </div>
+            <div>
+                <h5>Envío gratis</h5>
+                <h6>En pedidos de +100€</h6>
+            </div>
+        </div>
+
+        <div>
+            <div> 
+                <img src="../imagenes/iconos/shield-check.png" alt="garantía">
+            </div>
+            <div>
+
+                <h5>2 años de garantía</h5>
+                <h6>En todos los gadgets</h6>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="../imagenes/iconos/box-open.png" alt="ofertas">
+            </div>
+            <div>
+                <h5>Ofertas únicas</h5>
+                <h6>En precios de mayorista</h6>
+            </div>
+        </div>
+    </section>
     <footer>
-        <footer>
-            <section>
-                <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="10%"></a>  
-                <h4>NakamaStore</h4>
-                <div>
-                    <ul>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                        <li><a href="">Centro de ayuda</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
-                    <form action="">
-                        <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
-                        <button type="submit">Suscribirme</button>
-                        <label for="privacidad">
-                            <input type="checkbox" name="privacidad" id="privacidad" value="acepto">
-                            Acepto las políticas de privacidad de esta web
-                        </label>
-                    </form>
-                </div>
-                <div>
-                    <h6>Síguenos en nuestras redes sociales</h6>
-                    <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.jpeg" alt="Instagram" width="5%"></a>
-                    <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.jpeg" alt="Twitter" width="5%"></a>
-                    <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.jpeg" alt="Youtube" width="5%"></a>
-                </div>
-            </section>
-        </footer>
+        <section class="footernav">
+            <div><a href="index.html"><img src="../imagenes/iconos/logo.png" alt="logo" ></a> </div>
+            <div>
+            <div>
+                <ul class="menu">
+                    <li><a class="btn" href="">Centro de ayuda</a></li>
+                    <li><a class="btn" href="">Servicio al consumidor</a></li>
+                    <li><a class="btn" href="">Escríbenos</a></li>
+                    <li><a class="btn" href="">Servicio telefónico</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="menu">
+                    <li><a class="btn" href="">Política de privacidad</a></li>
+                    <li><a class="btn" href="">Condiciones de compra</a></li>
+                    <li><a class="btn" href="">Opiniones de clientes</a></li>
+                    <li><a class="btn" href="">Aviso de privacidad y coockies</a></li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="footerform">
+            <div>
+                <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
+                <form action="">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
+                    <button class="btn" type="submit">Suscribirme</button>
+                    <label for="privacidad">
+                        <input type="checkbox" name="privacidad" id="privacidad" value="acepto" checked>
+                        Acepto las políticas de privacidad de esta web
+                    </label>
+                </form>
+            </div>
+        </section>
     </footer>
+    <div class="redes">
+        <h5>Síguenos en nuestras redes sociales</h5>
+        <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.png" alt="Instagram" ></a>
+        <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.png" alt="Twitter" ></a>
+        <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.png" alt="Youtube" ></a>
+    </div>
+    <script href="../js/index.js"></script>
     
 </body>
 </html>

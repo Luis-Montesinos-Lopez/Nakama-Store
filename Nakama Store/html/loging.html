@@ -13,26 +13,26 @@
     <link rel="stylesheet" href="../css/card.css">
     <link rel="stylesheet" href="../css/btn.css">
     <link rel="stylesheet" href="../css/nav.css">
-
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo-header">
-            <a  href="index.html"" class="logo"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="20%"></a> 
-            <h4>NakamaStore</h4>
+    <header>
+        <div>
+            <a  href="index.html"" ><img src="../imagenes/iconos/logoh.png" alt="logo"  class="logo"></a>
         </div>  
         <div class="busqueda">
-            <input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo">
-            <a href="carrito.html"><img src="../imagenes/iconos/cart.png" alt="carrito"> <span>1</span></a>
-            <a href="loging.html">Iniciar sesión</a>
+            <div><input type="search" name="buscar" id="buscar" placeholder="Busca tu artículo" class="n-cart-left"></div>
+            <div><a href="carrito.html" class="btn m-color relative"><img src="../imagenes/iconos/carrito.png" alt="" class=""><span class="absolute"></span></a></div>
+          
+
+            <div><a href="loging.html" class="btn m-color "><img src="../imagenes/iconos/logging.png" alt=""  class="n-cart-left">Iniciar sesión</a></div>
         </div>
     </header>
-    <nav class="navegador">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="contactos.html">Contacto</a></li>            
+    <nav class="">
+        <ul class="m-nav wrap">
+            <li><a href="index.html" class="btn">Ofertas</a></li>
+            <li><a href="productos.html" class="btn">Productos</a></li>
+            <li><a href="Nosotros.html" class="btn">Nosotros</a></li>      
         </ul>
     </nav>
     <main>
@@ -57,74 +57,92 @@
             </form>
         </div>
     </main>
-    <section>
+    <section class="logosinfo">
         <div>
-            <img src="../imagenes/iconos/lock.png" alt="pago">
-            <h5>Pago seguro</h5>
-            <h6>100% garantizado</h6>
-
+            <div>
+                <img src="../imagenes/iconos/lock.png" alt="pago">
+            </div>
+            <div>
+                <h5>Pago seguro</h5>
+                <h6>100% garantizado</h6>
+             </div>
         </div>
-        <div>
-            <img src="../imagenes/iconos/truck-side.png" alt="envío">
-            <h5>Envío gratis</h5>
-            <h6>En pedidos de +100€</h6>
 
+        <div>
+            <div>
+                <img src="../imagenes/iconos/truck-side.png" alt="envío">
+            </div>
+            <div>
+                <h5>Envío gratis</h5>
+                <h6>En pedidos de +100€</h6>
+            </div>
         </div>
-        <div>
-            <img src="../imagenes/iconos/shield-check.png" alt="garantía">
-            <h5>2 años de garantía</h5>
-            <h6>En todos los gadgets</h6>
 
+        <div>
+            <div> 
+                <img src="../imagenes/iconos/shield-check.png" alt="garantía">
+            </div>
+            <div>
+
+                <h5>2 años de garantía</h5>
+                <h6>En todos los gadgets</h6>
+            </div>
         </div>
-        <div>
-            <img src="../imagenes/iconos/box-open.png" alt="ofertas">
-            <h5>Ofertas únicas</h5>
-            <h6>En precios de mayorista</h6>
 
+        <div>
+            <div>
+                <img src="../imagenes/iconos/box-open.png" alt="ofertas">
+            </div>
+            <div>
+                <h5>Ofertas únicas</h5>
+                <h6>En precios de mayorista</h6>
+            </div>
         </div>
     </section>
     <footer>
-        <section>
-            <a href="index.html"><img src="../imagenes/iconos/logo.jpeg" alt="logo" width="10%"></a> 
-            <h4>NakamaStore</h4>
+        <section class="footernav">
+            <div><a href="index.html"><img src="../imagenes/iconos/logo.png" alt="logo" ></a> </div>
             <div>
-                <ul>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
+            <div>
+                <ul class="menu">
+                    <li><a class="btn" href="">Centro de ayuda</a></li>
+                    <li><a class="btn" href="">Servicio al consumidor</a></li>
+                    <li><a class="btn" href="">Escríbenos</a></li>
+                    <li><a class="btn" href="">Servicio telefónico</a></li>
                 </ul>
             </div>
             <div>
-                <ul>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
-                    <li><a href="">Centro de ayuda</a></li>
+                <ul class="menu">
+                    <li><a class="btn" href="">Política de privacidad</a></li>
+                    <li><a class="btn" href="">Condiciones de compra</a></li>
+                    <li><a class="btn" href="">Opiniones de clientes</a></li>
+                    <li><a class="btn" href="">Aviso de privacidad y coockies</a></li>
                 </ul>
             </div>
+        </div>
         </section>
-        <section>
+        <section class="footerform">
             <div>
                 <h5>Únete a nuestras newsletter y recibe ofertas diarias</h5>
                 <form action="">
                     <input type="email" name="e-mail" id="e-mail" placeholder="Tu correo">
-                    <button type="submit">Suscribirme</button>
+                    <button class="btn" type="submit">Suscribirme</button>
                     <label for="privacidad">
-                        <input type="checkbox" name="privacidad" id="privacidad" value="acepto">
+                        <input type="checkbox" name="privacidad" id="privacidad" value="acepto" checked>
                         Acepto las políticas de privacidad de esta web
                     </label>
                 </form>
             </div>
-            <div>
-                <h6>Síguenos en nuestras redes sociales</h6>
-                <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.jpeg" alt="Instagram" width="5%"></a>
-                <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.jpeg" alt="Twitter" width="5%"></a>
-                <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.jpeg" alt="Youtube" width="5%"></a>
-            </div>
         </section>
     </footer>
+    <div class="redes">
+        <h5>Síguenos en nuestras redes sociales</h5>
+        <a href="urldeinstagram"><img src="../imagenes/iconos/Instagram.png" alt="Instagram" ></a>
+        <a href="urldetwitter"><img src="../imagenes/iconos/Twitter.png" alt="Twitter" ></a>
+        <a href="urldeyoutube"><img src="../imagenes/iconos/facebook.png" alt="Youtube" ></a>
+    </div>
     <script href="../js/index.js"></script>
+    f="../js/index.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,42 @@
+.contenedor{
+    box-sizing: content-box;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .productos-logo{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:64px;
+    margin: 32px;
+    height: 50%;
+  }
+  .product{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 100%;
+    margin: 64px;
+    gap: 64px;
+    align-items: center;
+  }
+.product-info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px;
+}
+  .product-info div p{
+    color: green;
+  }
+.opiniones{
+  display: flex;
+  flex-direction: column;
+}
+.opiniones-clientes{
+
+  border-bottom: 2px solid var(--gris);
+}
+  
+
+
+ 

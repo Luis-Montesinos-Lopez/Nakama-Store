@@ -1,19 +1,25 @@
+
+
 .btn{
+    color: var(--primario);
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     padding: 8px 16px;
-    border: 2px solid #DC223A;
+    border: 2px solid var(--primario);
     border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    transition: 0.4s;
 }
 :hover.btn{
     background-color: white;
-    color: #3A3A3A;
+    color: var(--primario-claro);
     border: 2px solid white;
     cursor: pointer;  
 }
 :hover.btn span{
-    color:#DC223A ;
+    color:var(--primario) ;
 }
 .btn-block{
     display: block;
@@ -22,12 +28,21 @@
 .relative{
     position: relative;   
 }
-.absolute{
+
+.absolute{   
     position: absolute;
-    background-color: darkblue;
-    padding: 8px;
+    top:0;
+    right:0;
+    background-color: var(--gris);
     border-radius: 50%;
-    height: 16px;
-    width: 16px;
-    text-align: center;
+    height:24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75;
+  
+}
+.busqueda div a{
+    border:2px solid white;
 }
